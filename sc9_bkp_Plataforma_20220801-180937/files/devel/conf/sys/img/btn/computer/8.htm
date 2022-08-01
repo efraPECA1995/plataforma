@@ -1,0 +1,445 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0068)http://www.netmake.com.br/scriptcase/aplicacoes/demo/david/david.php -->
+<HTML><HEAD><TITLE>Consulta em david</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<STYLE type=text/css>.clsCMOn {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Tahoma, Arial, sans-serif; TEXT-DECORATION: none
+}
+.clsCMOver {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Tahoma, Arial, sans-serif; TEXT-DECORATION: none
+}
+</STYLE>
+
+<SCRIPT src="../../../../../../../David/Desktop/Consulta%20em%20david_arquivos/coolmenupro.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+BLANK_IMAGE="/scriptcase/prod/imagens/b.gif";
+//keywords
+var code = "code"; var url = "url"; var sub = "sub";
+//styles
+var color = {"border":"#222222", "shadow":"#DBD8D1", "bgON":"#FBFDFF", "bgOVER":"#D0D8E0"};
+var css   = {"ON":"clsCMOn", "OVER":"clsCMOver"};
+var STYLE = {"border":1, "shadow":2, "color":color, "css":css};
+//items and formats
+var MENU_ITEMS =
+[
+  {"pos":[10,10], "itemoff":[19,0], "leveloff":[15,55], "style":STYLE, "size":[20,75]},
+  {code:"MENU", "format":{"arrow":"/scriptcase/prod/imagens/arrow.gif", "oarrow":"/scriptcase/prod/imagens/oarrow.gif", "arrsize":[13,13]},
+    sub: [
+      {"size":[20,150]},
+      {code:"Principal", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=fechar", "target": "_self"},
+      {code:"Fonte", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=fonte", "target": "_blank"},
+      {code:"Sessão", url:"/scriptcase/desenv/nm_generator/nm_session.php", "target": "_blank"},
+      {code:"SQL Builder", url:"/scriptcase/desenv/nm_generator/nm_isql.php", "target": "_blank"},
+      {code:"Geral",
+        sub: [
+          {"leveloff":[15,130], "size":[20,150]},
+          {code:"Dados Gerais", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=geral&mod=geral_dados", "target": "_self"},
+          {code:"Visualização", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=geral&mod=geral_visual", "target": "_self"},
+        ]
+      },
+      {code:"Consulta",
+        sub: [
+          {"leveloff":[15,130], "size":[20,150]},
+          {code:"Configuração", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_atualiza", "target": "_self"},
+          {code:"Grid", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_grid", "target": "_self"},
+          {code:"Filtro", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_busca", "target": "_self"},
+          {code:"Detalhe", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_detalhe", "target": "_self"},
+          {code:"Resumo", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_resumo", "target": "_self"},
+          {code:"PDF", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_pdf", "target": "_self"},
+          {code:"Ordenação", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_ordem", "target": "_self"},
+          {code:"Quebras", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_quebra", "target": "_self"},
+          {code:"Totalização", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_total", "target": "_self"},
+          {code:"Chaves", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&mod=cons_chave", "target": "_self"},
+          {code:"Campos",
+            sub: [
+              {"leveloff":[15,130], "size":[20,250]},
+              {code:"clienteid", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=100", "target": "_self"},
+              {code:"nomecliente", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=200", "target": "_self"},
+              {code:"nomecontato", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=300", "target": "_self"},
+              {code:"cargocontato", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=400", "target": "_self"},
+              {code:"tpcli", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=500", "target": "_self"},
+              {code:"cic_cnpj", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=600", "target": "_self"},
+              {code:"datanasc", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=700", "target": "_self"},
+              {code:"endereco", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=800", "target": "_self"},
+              {code:"bairro", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=900", "target": "_self"},
+              {code:"cidade", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1000", "target": "_self"},
+              {code:"estado", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1100", "target": "_self"},
+              {code:"cep", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1200", "target": "_self"},
+              {code:"pais", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1300", "target": "_self"},
+              {code:"fone", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1400", "target": "_self"},
+              {code:"fax", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1500", "target": "_self"},
+              {code:"limitecred", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1600", "target": "_self"},
+              {code:"cartaotipo", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1700", "target": "_self"},
+              {code:"cartaonumero", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1800", "target": "_self"},
+              {code:"notas", url:"/scriptcase/desenv/nm_generator/nm_frame.php?acao=edicao&pasta=consulta&campo=1900", "target": "_self"},
+            ]
+          },
+        ]
+      },
+    ]
+  },
+];
+var apl_menu = new COOLjsMenuPRO("menu_apl", MENU_ITEMS);
+apl_menu.initTop();
+apl_menu.init();
+apl_menu.show();
+</SCRIPT>
+
+<META content="MSHTML 6.00.2734.1600" name=GENERATOR></HEAD>
+<BODY bgColor=F8FFF4 background="bg.jpg" vlink="#FFFFFF">
+<BR>
+<BR>
+<META http-equiv=Expires content="Fri, Jan 01 1900 00:00:00 GMT">
+<META http-equiv=Last-Modified content="Fri, 12 Dec 2003 19:22:52 GMT">
+<META http-equiv=Cache-Control content="no-store, no-cache, must-revalidate">
+<META http-equiv=Cache-Control content="post-check=0, pre-check=0">
+<META http-equiv=Pragma content=no-cache>
+<H1></H1>
+<TABLE cellSpacing=0 cellPadding=0 width="80%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%">
+      <TABLE cellSpacing=0 cellPadding=4 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=1 cellPadding=2 width="100%" align=center 
+            bgColor=#000000 border=0>
+                <TBODY>
+              <TR align=middle>
+                    <TD bgColor=3666A0> 
+                      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR vAlign=center align=middle>
+                            <TD rowSpan=2 align=left><img src="../Exemplo2/nm_logo.gif" width="30" height="30"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><strong> 
+                              T&Iacute;TULO DA TABELA</strong></font></TD>
+                      <TD><FONT face="Verdana, Arial, sans-serif" 
+                        color=#000000 size=3><B></B></FONT></TD></TR>
+                    <TR vAlign=center align=right>
+                            <TD><FONT face="Verdana, Arial, sans-serif" 
+                        color=#FFFFFF 
+              size=3>Data</FONT><FONT face="Verdana, Arial, sans-serif" 
+                        color=#000000 
+              size=3>&nbsp;</FONT></TD>
+                          </TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+        <FORM name=F0_top action=../../../../../../../David/Desktop/david.php method=post target=_self><INPUT 
+        type=hidden value=b142f900f436b22001fbf1008ad5bb19 
+        name=script_case_init> <INPUT type=hidden value=muda_qt_linhas 
+        name=nmgp_opcao> 
+        <TR>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=4 width="100%" border=0>
+                <TBODY>
+              <TR vAlign=center align=middle bgColor=#ffffff>
+                    <TD noWrap bgcolor="0B284C"> 
+                      <INPUT onclick=javascript:nm_gp_submit_rec(document.F0_top.REC.value) type=button value="ir para" name=brec> 
+                  <INPUT size=3 value=1 name=REC>
+                      <img src="primeiro.jpg" width="36" height="26"> <img src="anterior.jpg" width="36" height="26"> 
+                      <img src="proximo.jpg" width="36" height="26"> <img src="ultimo.jpg" width="36" height="26"> 
+                      <INPUT size=3 value=6 
+                  name=nmgp_quant_linhas>
+                      <img src="del.jpg" width="36" height="26"> <img src="pdf.jpg" width="36" height="26"> 
+                      <img src="pdfpb.jpg" width="36" height="26"> <img src="excel.jpg" width="36" height="26"> 
+                      <img src="grafico.jpg" width="36" height="26"> <img src="impressora.jpg" width="36" height="26"> 
+                      <img src="form.jpg" width="36" height="26"> <img src="duvida.jpg" width="36" height="26"> 
+                      <img src="word.jpg" width="36" height="26"> <img src="irpara.jpg" width="36" height="26"> 
+                      <img src="sair.jpg" width="36" height="26"> </TD>
+                  </TR></TBODY></TABLE></TD></TR></FORM>
+        <TR>
+          <TD vAlign=top width="100%">
+            <TABLE id=apl_david#?#1 cellSpacing=1 cellPadding=2 width="100%" 
+            align=center bgColor=#000000 border=0>
+              <TBODY>
+              <TR id=tit_david#?#1 align=middle bgColor=#d0d8e0>
+                  <TD align=right vAlign=center bgcolor="B8D8FF"><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 
+                  size=2><B>&nbsp;</B></FONT></TD>
+                  <TD width="3%" align=right vAlign=center bgcolor="B8D8FF"><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 
+                  size=2><B>&nbsp;</B></FONT></TD>
+                  <TD width="5%" align=left vAlign=center noWrap bgcolor="B8D8FF"><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 size=2><B><A 
+                  href="javascript:nm_gp_submit2('clienteid')">clienteid</A> </B></FONT></TD>
+                  <TD width="42%" align=left vAlign=center noWrap bgcolor="B8D8FF"><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 size=2><B><A 
+                  href="javascript:nm_gp_submit2('nomecliente')">nomecliente</A> 
+                    </B></FONT></TD>
+                  <TD width="10%" align=middle vAlign=center noWrap bgcolor="B8D8FF"><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 
+                  size=2><B>datanasc</B></FONT></TD>
+                  <TD width="16%" align=left vAlign=center noWrap bgcolor="B8D8FF"><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 
+                  size=2><B>bairro</B></FONT></TD>
+                  <TD width="24%" align=right vAlign=center noWrap bgcolor="B8D8FF"><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 
+                  size=2><B>limitecred</B></FONT></TD>
+                </TR>
+                <TR bgColor=124B91> 
+                  <TD colSpan=7 align=left><FONT 
+                  face="Verdana, Arial, sans-serif" color=#FFFFFF size=2><A 
+                  LEVEL="2">estado =&gt; AL <BR>
+                    Qtd. Reg. =&gt; 5</A></FONT></TD>
+                </TR>
+              <TR>
+                  <TD vAlign=top noWrap align=middle width=5 
+                  bgColor=#fbfdff><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2><img src="../Exemplo2/nm_detalhe.gif" width="12" height="12"> 
+                    </FONT></TD>
+                  <TD vAlign=top noWrap align=right width=5 
+                  bgColor=7FB9FF><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2>1</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>FRANS</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>Francinete S.p.a</FONT></TD>
+                  <TD vAlign=top noWrap align=middle bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>13/11/1959</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>Espinheiro</FONT></TD>
+                  <TD vAlign=top noWrap align=right bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>1.545,70</FONT></TD>
+                </TR>
+              <TR>
+                  <TD vAlign=top noWrap align=middle width=5 
+                  bgColor=#ffffff><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2><img src="../Exemplo2/nm_detalhe.gif" width="12" height="12"> 
+                    </FONT></TD>
+                  <TD vAlign=top noWrap align=right width=5 
+                  bgColor=B8D8FF><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2>2</FONT></TD>
+                  <TD vAlign=top align=left bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>LETSS</FONT></TD>
+                  <TD vAlign=top align=left bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 size=2>Ligação 
+                    Parada Obrigatoria</FONT></TD>
+                  <TD vAlign=top noWrap align=middle bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>13/11/1959</FONT></TD>
+                  <TD vAlign=top align=left bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>Espinheiro</FONT></TD>
+                  <TD vAlign=top noWrap align=right bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>3.488,92</FONT></TD>
+                </TR>
+              <TR>
+                  <TD vAlign=top noWrap align=middle width=5 
+                  bgColor=#fbfdff><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2><img src="../Exemplo2/nm_detalhe.gif" width="12" height="12"> 
+                    </FONT></TD>
+                  <TD vAlign=top noWrap align=right width=5 
+                  bgColor=7FB9FF><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2>3</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>SAVEA</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 size=2>Salvador 
+                    Mercado</FONT></TD>
+                  <TD vAlign=top noWrap align=middle bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>13/11/1959</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>Espinheiro</FONT></TD>
+                  <TD vAlign=top noWrap align=right bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>5.663,79</FONT></TD>
+                </TR>
+              <TR>
+                  <TD vAlign=top noWrap align=middle width=5 
+                  bgColor=#ffffff><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2><img src="../Exemplo2/nm_detalhe.gif" width="12" height="12"> 
+                    </FONT></TD>
+                  <TD vAlign=top noWrap align=right width=5 
+                  bgColor=B8D8FF><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2>4</FONT></TD>
+                  <TD vAlign=top align=left bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>WANDK</FONT></TD>
+                  <TD vAlign=top align=left bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 size=2>Wando 
+                    Comida e Satisfação</FONT></TD>
+                  <TD vAlign=top noWrap align=middle bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>13/11/1959</FONT></TD>
+                  <TD vAlign=top align=left bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>Espinheiro</FONT></TD>
+                  <TD vAlign=top noWrap align=right bgColor=B8D8FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>1.881,99</FONT></TD>
+                </TR>
+              <TR>
+                  <TD vAlign=top noWrap align=middle width=5 
+                  bgColor=#fbfdff><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2><img src="../Exemplo2/nm_detalhe.gif" width="12" height="12"> 
+                    </FONT></TD>
+                  <TD vAlign=top noWrap align=right width=5 
+                  bgColor=7FB9FF><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2>5</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>WHITC</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>Wanderlucia Trevo Mercado</FONT></TD>
+                  <TD vAlign=top noWrap align=middle bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>13/11/1959</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>Espinheiro</FONT></TD>
+                  <TD vAlign=top noWrap align=right bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>1.301,14</FONT></TD>
+                </TR>
+              <TR bgColor=#f8fcff>
+                  <TD align=right bgColor=B8D8FF colSpan=6><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 
+                  size=2>&nbsp;</FONT></TD>
+                  <TD noWrap align=right bgColor=B8D8FF><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 
+                  size=2>13.881,54</FONT></TD>
+                </TR>
+                <TR bgColor=124B91> 
+                  <TD colSpan=7 align=left><FONT 
+                  face="Verdana, Arial, sans-serif" color=#FFFFFF size=2><A 
+                  LEVEL="2">estado =&gt; AM <BR>
+                    Qtd. Reg. =&gt; 2</A></FONT></TD>
+                </TR>
+              <TR>
+                  <TD vAlign=top noWrap align=middle width=5 
+                  bgColor=#ffffff><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2><img src="../Exemplo2/nm_detalhe.gif" width="12" height="12"> 
+                    </FONT></TD>
+                  <TD vAlign=top noWrap align=right width=5 
+                  bgColor=7FB9FF><FONT face="Tahoma, Arial, sans-serif" 
+                  color=#000000 size=2>6</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>DRACD</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 size=2>Dracula 
+                    Delicatessen</FONT></TD>
+                  <TD vAlign=top noWrap align=middle bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>13/11/1959</FONT></TD>
+                  <TD vAlign=top align=left bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>Espinheiro</FONT></TD>
+                  <TD vAlign=top noWrap align=right bgColor=7FB9FF><FONT 
+                  face="Tahoma, Arial, sans-serif" color=#000000 
+                  size=2>3.763,21</FONT></TD>
+                </TR>
+                <TR bgColor=B8D8FF> 
+                  <TD colSpan=7 align=left><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 size=2><A 
+                  name="nm_quebra_geral " LEVEL="1">Total Geral (87)</A> </FONT></TD>
+                </TR>
+              <TR bgColor=#f0f8ff>
+                  <TD colSpan=6 align=right bgColor=B8D8FF><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 
+                  size=2>&nbsp;</FONT></TD>
+                  <TD align=right noWrap bgColor=B8D8FF><FONT 
+                  face="Verdana, Arial, sans-serif" color=#000000 
+                  size=2>365.580,40</FONT></TD>
+                </TR>
+                <TR bgColor=124B91> 
+                  <TD colSpan=7 align=middle><FONT 
+                  face="Verdana, Arial, sans-serif" color=#FFFFFF size=2>[1 a 
+                    6 de 87]</FONT></TD>
+                </TR></TBODY></TABLE></TD></TR>
+        <FORM name=F3 action=../../../../../../../David/Desktop/david.php method=post target=_self><INPUT 
+        type=hidden name=nmgp_chave> <INPUT type=hidden name=nmgp_opcao> <INPUT 
+        type=hidden name=nmgp_ordem> <INPUT type=hidden name=nmgp_chave_det> 
+        <INPUT type=hidden name=nmgp_quant_linhas> <INPUT type=hidden 
+        name=nmgp_url_saida> <INPUT type=hidden name=nmgp_parms> <INPUT 
+        type=hidden name=nmgp_tipo_pdf> <INPUT type=hidden 
+        value=b142f900f436b22001fbf1008ad5bb19 name=script_case_init> </FORM>
+        <FORM name=F4 action=../../../../../../../David/Desktop/david.php method=post target=_self><INPUT 
+        type=hidden value=rec name=nmgp_opcao> <INPUT type=hidden name=rec> 
+        <INPUT type=hidden name=nm_call_php> <INPUT type=hidden 
+        value=b142f900f436b22001fbf1008ad5bb19 name=script_case_init> </FORM>
+        <FORM name=F5 action=../../../../../../../David/Desktop/david_pesq.class.php method=post 
+        target=_self><INPUT type=hidden value=b142f900f436b22001fbf1008ad5bb19 
+        name=script_case_init> </FORM></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<SCRIPT language=JavaScript>
+   function nm_gp_submit_rec(campo) 
+   { 
+      if (1 > campo) 
+      { 
+          return; 
+      } 
+      document.F4.target = "_self"; 
+      document.F4.rec.value = campo ;
+      document.F4.nmgp_opcao.value = "rec" ;
+      document.F4.submit() ;
+   } 
+   function nm_gp_submit(campo) 
+   { 
+      document.F3.target = "_self"; 
+      document.F3.nmgp_parms.value = campo ;
+      document.F3.nmgp_opcao.value = "igual" ;
+      document.F3.action           = "david.php"  ;
+      document.F3.submit() ;
+   } 
+   function nm_gp_submit2(campo) 
+   { 
+      document.F3.target           = "_self"; 
+      document.F3.nmgp_ordem.value = campo ;
+      document.F3.nmgp_opcao.value = "ordem" ;
+      document.F3.action           = "david.php"  ;
+      document.F3.submit() ;
+   } 
+   function nm_gp_submit3(campo, opc) 
+   { 
+      document.F3.target               = "_self"; 
+      document.F3.nmgp_chave_det.value = campo ;
+      document.F3.nmgp_opcao.value     = opc ;
+      document.F3.action               = "david.php"  ;
+      document.F3.submit() ;
+   } 
+   function nm_gp_move(x, y, z) 
+   { 
+       document.F3.action           = "david.php"  ;
+       document.F3.nmgp_parms.value = "" ;
+       document.F3.nmgp_url_saida.value = "" ;
+       document.F3.nmgp_opcao.value = x; 
+       document.F3.target = "_self"; 
+       if (y == 1) 
+       {
+           document.F3.target = "_blank"; 
+       }
+       if (z != null) 
+       { 
+           document.F3.nmgp_tipo_pdf.value = z; 
+       } 
+       if ("pdf" == x)
+       {
+           window.location = "david_iframe.php?scsess=b142f900f436b22001fbf1008ad5bb19&pbfile=%2Fvar%2Fwww%2Fhtml%2Fscriptcase%2Ftemp%2Fpb_b142f900f436b22001fbf1008ad5bb19.tmp&jspath=%2Fscriptcase%2Fprod%2Fjs&sc_apbgcol=%23FFFFFF&sc_tp_pdf=" + z;
+       }
+       else
+       {
+           document.F3.submit();  
+       }
+   } 
+   function nm_mostra_doc(campo1, campo2, campo3)
+   {
+       NovaJanela = window.open ("david_doc.php?nm_cod_doc=" + campo1 + "&nm_nome_doc=" + campo2 + "&nm_cod_apl=" + campo3, "ScriptCase", "resizable");
+   }
+   function nm_escreve_window()
+   {
+      document.F5.action = "david_fim.php";
+      document.F5.submit();
+   }
+   </SCRIPT>
+</BODY></HTML>

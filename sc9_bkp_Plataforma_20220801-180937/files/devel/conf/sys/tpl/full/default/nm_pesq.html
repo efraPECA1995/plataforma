@@ -1,0 +1,27 @@
+   <TABLE border="{NM_TAB_LAR_BOR}" cellspacing="{NM_TAB_CEL_SPA}" cellpadding="{NM_TAB_CEL_PAD}" {NM_TAB_COR_FUN} {NM_TAB_COR_BOR} {NM_TABELA_ALIGN} width="100%">
+    <TR>
+     <TD {NM_TIT_IMG_FUN} bgcolor="{NM_TIT_COR_FUN}" colspan="3"><FONT size="{NM_TIT_TXT_TAM}" color="{NM_TIT_COR_TXT}" face="{NM_TIT_TXT_TIP}"><B>{NM_CAB_PESQ}</B></FONT></TD>
+    </TR>
+<!-- BEGIN bloco_registro -->
+    <TR bgcolor="{NM_DAD_COR_FUN}" valign="top">
+     <TD {NM_DAD_IMG_FUN}><FONT size="{NM_TIT_TXT_TAM}" color="{NM_DAD_COR_TXT}" face="{NM_DAD_TIT_TIP}"><B>{NM_CMP_NOME}</B></FONT></TD>
+     <TD {NM_DAD_IMG_FUN}><FONT size="{NM_TIT_TXT_TAM}" color="{NM_DAD_COR_TXT}" face="{NM_DAD_TIT_TIP}"><B>{NM_CMP_COND}</B></FONT></TD>
+     <TD {NM_DAD_IMG_FUN}>
+      <TABLE border="0" cellpadding="0" cellspacing="0">
+       <TR valign="top">
+        <TD><FONT size="{NM_DAD_TXT_TAM}" color="{NM_DAD_COR_TXT}" face="{NM_DAD_TXT_TIP}">{NM_CMP_DADO}</FONT></TD>
+       </TR>
+      </TABLE>
+     </TD>
+    </TR>
+<!-- END bloco_registro -->
+<!-- BEGIN bloco_final -->
+    <TR>
+     <TD {NM_GRU_IMG_FUN} bgcolor="{NM_GRU_COR_FUN}" colspan="3"><FONT size="{NM_GRU_TXT_TAM}" color="{NM_GRU_COR_TXT}" face="{NM_GRU_TXT_TIP}">
+       {NM_CONDICAO_OPER}
+      <INPUT type="radio" name="NM_operador" value="and"{NM_OPER_1}>{NM_TP_OPER_AND}
+      <INPUT type="radio" name="NM_operador" value="or"{NM_OPER_2}>{NM_TP_OPER_OR}
+     </FONT></TD>
+    </TR>
+<!-- END bloco_final -->
+   </TABLE>

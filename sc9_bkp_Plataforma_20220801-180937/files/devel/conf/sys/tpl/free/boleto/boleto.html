@@ -1,0 +1,407 @@
+<!-- Tabela 1 -->
+<table border="0" cellpadding="0" cellspacing="0" width="737px">
+ <tr valign="bottom">
+  <td align="left" width="213px"><font face="Arial, sans-serif" size="2"><B>{banco}</B></font></td>
+  <td align="left" width="1px"><img src="boleto_div.gif" border="0"></td>
+  <td align="left" width="75px"><font face="Times, New Roman, serif" size="5"><B>{cod}</B></font></td>
+  <td align="left" width="1px"><img src="boleto_div.gif" border="0"></td>
+  <td align="right" width="447px"><font face="Arial, sans-serif" size="2"><B>Recibo do Sacado<B></font></td>
+ </tr>
+</table>
+<table border="1" bordercolor="#000000" cellpadding="0" cellspacing="0" width="737px">
+ <tr>
+  <td colspan="4"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Cedente</font></td>
+   </tr>
+   <tr height="17px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{cedente}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="71px"><font face="Arial, sans-serif" size="1">Parcela</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{parcela}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="119px"><font face="Arial, sans-serif" size="1">Vencimento</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{dt_vencimento}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td colspan="4"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Segurado</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{segurado}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Apólice/Endosso</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{apolice}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td colspan="6"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Corretor</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{corretor}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="164px"><font face="Arial, sans-serif" size="1">Vigencia</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{vigencia}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="123px"><font face="Arial, sans-serif" size="1">Data de Emissão</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{dt_emissao}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="112px"><font face="Arial, sans-serif" size="1">Data de Processamento</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{dt_process}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="134px"><font face="Arial, sans-serif" size="1">Agência/Conta</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{agencia}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Nosso Número</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{nosso_numero}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(=) Valor do Documento</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{val_doc}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="99%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(-) Desconto</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{desconto}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(+) Mora/Multa</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{multa}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(+) Outros Acréscimos</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{acrescimos}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(=) Valor Cobrado</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{val_cobrado}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr height="325px">
+  <td colspan="6"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Instruções (Texto de Responsabilidade do Cedente)</font></td>
+   </tr>
+   <tr height="310px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{intrucoes}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="737px">
+ <tr>
+  <td align="right"><font face="Arial, sans-serif" size="1">__________ Autenticação Mecânica __________ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></td>
+ </tr>
+</table>
+<br>
+<hr align="left" width="737px">
+<!-- Tabela 2 -->
+<table border="0" cellpadding="0" cellspacing="0" width="737px">
+ <tr valign="bottom">
+  <td align="left" width="213px"><font face="Arial, sans-serif" size="2"><B>{banco}</B></font></td>
+  <td align="left" width="1px"><img src="boleto_div.gif" border="0"></td>
+  <td align="left" width="75px"><font face="Times, New Roman, serif" size="5"><B>{cod}</B></font></td>
+  <td align="left" width="1px"><img src="boleto_div.gif" border="0"></td>
+  <td align="right" width="447px"><font face="Arial, sans-serif" size="2">{num_boleto}</font></td>
+ </tr>
+</table>
+<table border="1" bordercolor="#333333" cellpadding="0" cellspacing="0" width="737px">
+  <tr>
+  <td colspan="6"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Local de Pagamento</font></td>
+   </tr>
+   <tr height="29px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{local_pagto}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="71px"><font face="Arial, sans-serif" size="1">Parcela</font></td>
+   </tr>
+   <tr height="29px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{parcela}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="119px"><font face="Arial, sans-serif" size="1">Vencimento</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{dt_vencimento}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td colspan="6"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Cedente</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{cedente}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Agencia/Código do Cedente</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{agencia}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="164px"><font face="Arial, sans-serif" size="1">Data Documento</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{dt_doc}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td width="141px" height="14" align="left" valign="top"><font face="Arial, sans-serif" size="1">Código Documento</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{cod_doc}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="44px"><font face="Arial, sans-serif" size="1">Espécie</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">NS</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="48px"><font face="Arial, sans-serif" size="1">Aceite</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{aceite}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top" width="134px"><font face="Arial, sans-serif" size="1">Data de Processamento</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{dt_process}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Nosso Número</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{nosso_numero}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Uso do Banco</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{uso_banco}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Cateira</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{certeira}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Espécie Moeda</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{moeda}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Quantidade Moeda</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{qtd_moeda}</font></td>
+   </tr>
+  </table></td>
+  <td><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Valor Moeda</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{val_moeda}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(=) Valor do Documento</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{val_doc}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td colspan="6" rowspan="5"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Instruções (Texto de Responsabilidade do Cedente)</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{instrucoes2}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(-) Desconto/Abatimento</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{desc_abat}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(-) Outras Deduções</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{out_dedu}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(+) Mora/Multa</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{multa}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(+) Outros Acréscimos</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{acrescimos}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">(=) Valor Cobrado</font></td>
+   </tr>
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{val_cobrado}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+ <tr>
+  <td colspan="6"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">Sacado</font></td>
+   </tr>
+   <tr height="29px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{sacado}</font></td>
+   </tr>
+  </table></td>
+  <td colspan="2"><table border="0" cellpadding="0" cellspacing="0"  width="100%">
+   <tr height="15px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">CNPJ/CPF</font></td>
+   </tr>
+   <tr height="29px">
+    <td align="left" valign="top"><font face="Arial, sans-serif" size="1">{cnpj_cpf}</font></td>
+   </tr>
+  </table></td>
+ </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="737px">
+ <tr>
+  <td align="right"><font face="Arial, sans-serif" size="1">Autenticação Mecânica - Ficha de Compensação &nbsp; &nbsp;</font></td>
+ </tr>
+ <tr>
+  <td align="left">{cod_barra}</td>
+ </tr>
+</table>

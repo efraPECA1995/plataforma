@@ -1,0 +1,354 @@
+/*Ajustes no Blocos principais*/
+blockquote.block-midnight-blue{border-left: 5px solid #2c3e50 !important;}
+body > section.container { padding: 40px 0;}
+label{/* font-size:14px !important;*/ font-weight:normal !important}
+/*Fim de Ajustes no Blocos principais*/
+
+/*Tratamento de Imagens*/
+.responsiveimg{max-width:300px; width:100%;max-height: 290px; min-height: auto;}
+/*Fim do Tratamento de Imagens*/ 
+
+.modal-backdrop.in { filter: alpha(opacity=0) !important; opacity: .0 !important;}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #7E7E7E !important; background-color: transparent;} 
+
+/*Medida de Fontes*/
+.f18{ font-size:18px !important}
+.f16{ font-size:16px !important}
+.f15{ font-size:15px !important}
+.f14{ font-size:14px !important}
+.f13{ font-size:13px !important}
+.f12{ font-size:12px !important}
+/*Medida de Fontes*/
+
+/*Contador Regresso*/
+.counter-regress{ color: #039; display:block; position:relative; top:35px; font-size:18px}
+/*Contador Regresso*/
+
+.TitleInstrucoes{color:#006699 !important; font-size:18px; margin:0 0 10px 0}
+
+.LinkConcordo{ text-decoration:underline !important}
+
+.fontBold{ font-weight:bold}
+
+.TextCenter{ text-align:center}
+
+.modal .modal-header > h4.Title {color: #fff !important;}
+
+#CartaoResposta{overflow: scroll;}
+
+/*Alteração nas classes do Bootstrap*/
+.panel-heading { border-top-right-radius: 0px !important; border-top-left-radius: 0px !important;}
+.panel-group .panel { border-radius: 0px !important;}
+.panel-default {border: 1px solid #ddd !important;}
+.panel { margin-bottom: -6px !important;border-radius: 0px !important; border: 1px solid #F5F5F5;}
+.btn { border-radius: 0px !important;}
+.modal-header{ background:#F5F5F5; padding:15px !important}
+.modal-content { position: relative; background-color: #fff; border: 1px solid #999; border: 1px solid rgba(0,0,0,0.2); border-radius: 0px !important; outline: 0; -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5); box-shadow: 0 3px 9px rgba(0,0,0,0.5); background-clip: padding-box;}
+.btn-default{ border:1px solid #E6E6E6 !important}
+.th-center {text-align: center;}
+.breadcrumb>li+li:before {color: #FFF !important; } /*traçado do breadcrumb*/
+
+/*Fim de Alteração nas classes do Bootstrap*/
+
+.Ola{max-width:350px !important; margin-left:auto; margin-right:auto;text-align:left !important; }
+.Ola > h4{font-weight:normal}
+.Ola > h4 > span{ font-weight:bold}
+.Ola > p{ margin-bottom:30px}
+
+.Finalizada{max-width:350px !important; margin-left:auto; margin-right:auto;text-align:center !important; }
+.Finalizada > h4{font-weight:normal}
+.Finalizada > h4 > span{ font-weight:bold}
+.Finalizada > p{ margin-bottom:30px}
+
+/*Medidas para Padding e Margin extra || T->Top, R->Right, L->Left, B->Bottom || P->Plus (para adição de medidas), M->Minus (para subtração de medidas) */
+.marginTP10{ margin-top:10px !important}
+.marginTP5{ margin-top:2px} /* era 5px */
+.marginTP7{ margin-top:7px !important}
+.marginTP8{ margin-top:8px !important}
+.marginTP10{ margin-top:10px !important}
+.marginTP15{ margin-top:15px !important}
+.marginTP20{ margin-top:20px !important}
+.marginTP30{ margin-top:30px !important}
+.marginTP40{ margin-top:40px !important}
+
+.marginTM10{ margin-top:-10px !important}
+
+.marginLM15{ margin-left:-15px !important}
+.marginLM30{ margin-left:-30px !important}
+.marginLM40{ margin-left:-40px !important}
+
+.marginLP15{ margin-left:15px !important}
+.marginLP10{ margin-left:10px !important}
+.marginLP5{ margin-left:5px !important}
+.marginL0{ margin-left:0px !important}
+.marginLP30{ margin-left:30px !important}
+.marginLP40{ margin-left:40px !important}
+
+.marginRP15{ margin-right:15px !important}
+.marginRP30{ margin-right:30px !important}
+.marginRP10{ margin-right:10px !important}
+.marginRP5{ margin-right:5px !important}
+.marginR0{ margin-right:0px !important}
+
+.marginB0{ margin-bottom:0px !important}
+.marginBP15{ margin-bottom:15px !important}
+.marginBP20{ margin-bottom:20px !important}
+.marginBP30{ margin-bottom:30px !important}
+.marginBP40{ margin-bottom:40px !important}
+.marginBP60{ margin-bottom:60px !important}
+
+.paddingP20{ padding:20px}
+.paddingP30{ padding:30px}
+
+.paddingTP10{ padding-top:10px}
+.paddingTP5{ padding-top:5px}
+.paddingTP20{ padding-top:20px}
+
+.paddingBP10{ padding-bottom:10px}
+.paddingBP20{ padding-bottom:20px}
+
+.paddingLP15{ padding-left:15px}
+
+.padding30{padding:30px}
+
+/*Fim de Medidas para Padding e Margin extra*/
+
+/*Tratamento para altura em objetos modificados com display block*/
+.height-block120{ height:120px; display:block}
+.height-block100{ height:100px; display:block}
+.height-block80{ height:80px; display:block}
+.height-block45{ height:45px; display:block}
+.height-block20{ height:20px; display:block}
+
+/*Fim de Tratamento para altura em objetos modificados com display block*/
+
+/*Tratamento de Foto para usuários logados no sistema*/
+.user-logado{ border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; max-width:30px; margin:0px 0px 0 5px; border:#4D6B8A solid 2px}
+/*Fim de Tratamento de Foto para usuários logados no sistema*/
+
+
+/*Cores para links*/
+.white-a{ color:#fff !important}
+/*Fim de cores para links*/
+
+/*Mapa de cores para background*/
+.turquoise { background-color: #1abc9c;}
+.green-sea { background-color: #16a085;}
+.sun-flower { background-color: #f1c40f;}
+.orange { background-color: #f39c12;}
+.emerald { background-color: #2ecc71;}
+.nephritis { background-color: #27ae60;}
+.carrot { background-color: #e67e22;}
+.pumkin { background-color: #d35400;}
+.turquoise { background-color:#1abc9c;}
+.peter-river { background-color: #3498db;}
+.belize-hole { background-color: #2980b9;}
+.alizarin { background-color: #e74c3c;}
+.pomegranate { background-color: #c0392b;}
+.amethyst {background-color: #9b59b6;}
+.wisteria { background-color: #8e44ad;}
+.clouds { background-color: #ecf0f1;}
+.silver { background-color: #bdc3c7;}
+.wet-asphalt { background-color: #34495e;}
+.wet-asphalt a:not(.btn) { color: #bdc3c7;}
+.wet-asphalt a:not(.btn):hover { color: #d9534f;}
+.midnight-blue { background-color: #2c3e50;}
+.concrete { background-color: #95a5a6;}
+.asbestos { background-color: #7f8c8d;}
+.white-clouds { background-color:#FCFCFC;}
+/*Fim de Mapa de cores para background*/
+
+/*Mapa de cores para FONTES*/
+.text-turquoise { color: #1abc9c;}
+.text-green-sea { color: #16a085;}
+.text-sun-flower { color: #f1c40f;}
+.text-orange { color: #f39c12;}
+.text-emerald { color: #2ecc71;}
+.text-nephritis { color: #27ae60;}
+.text-carrot { color: #e67e22;}
+.text-pumkin { color: #d35400;}
+.text-turquoise { color:#1abc9c;}
+.text-peter-river { color: #3498db;}
+.text-belize-hole { color: #2980b9;}
+.text-alizarin { color: #e74c3c;}
+.text-pomegranate { color: #c0392b;}
+.text-amethyst {color: #9b59b6;}
+.text-wisteria { color: #8e44ad;}
+.text-clouds { color: #ecf0f1;}
+.text-silver { color: #bdc3c7;}
+.text-wet-asphalt { color: #34495e;}
+.text-wet-asphalt a:not(.text-btn) { color: #bdc3c7;}
+.text-wet-asphalt a:not(.text-btn):hover { color: #d9534f;}
+.text-midnight-blue { color: #2c3e50 !important;}
+.text-concrete { color: #95a5a6;}
+.text-asbestos { color: #7f8c8d;}
+.text-white-clouds { color:#fff !important;}
+/*Fim de Mapa de cores para FONTES*/
+
+/*Ajustes no Breadcrumb*/
+.breadcrumb-section{ padding:0px !important;   position: fixed; right: 0;  left: 0;  border-width: 0 0 1px;z-index: 1020; top:35px}
+.breadcrumb{ padding:0 !important;  margin-top: 37px !important;}
+/*.breadcrumb-title {font-weight: 300 !important;  margin-top: 28px !important;  margin-bottom: 2px !important;} */
+.breadcrumb-title {font-weight: 300 !important;  margin-top: 28px !important;  margin-bottom: 2px !important;}
+/*Fim de Ajustes no Breadcrumb*/
+
+/*Ajustes nos formulários*/
+.form-registration { border-radius: 0px !important;  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) inset !important; padding:0px 10px !important; min-height:20px}
+.TitleForm{ margin:0 0 20px 15px !important; padding:0 !important}
+/*Fim de Ajustes nos formulários*/
+
+/*Tratamento de confrontos de clubes*/
+.game{ font-size:14px; font-weight:300; color:#999}
+.game-gr{ font-size:18px; font-weight:300; color:#999}
+.escudo-clube{ max-width:18px !important; margin:0 10px !important}
+.escudo-clube-gr{ max-width:45px !important; margin:0 10px !important}
+.game span.versus{ font-size:15px; color:#666;font-weight:300; margin:0 10px}
+.Local-Game{ text-align:center; font-weight:bold; font-size:12px; margin:10px auto; color: #333}
+/*Fim Tratamento de confrontos de clubes*/
+
+/*Lista de Comunicados*/
+.ListaComunicados{ border-bottom:1px solid #E6E6E6; padding:15px 0}
+a.Comunicados{ font-size:16px; color:#666; text-decoration:none}
+a:hover.Comunicados{ color: #090}
+.label-plus-size{ font-size:12px}
+/*Fim de Lista de Comunicados*/
+
+/*Cores de Cartões*/
+.color-yellow {color: #FC0 !important;}
+.color-red {color: #A80000 !important;}
+/*Fim de Cores de Cartões*/
+
+/*Formatação Escala*/
+.foto-escala{ max-width:40px; margin-bottom:15px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.thumbnail:hover{ background: #fafafa}
+.thumbnail{border-radius:2px;}
+.Maisc{ text-transform:uppercase}
+/*Formatação Escala*/
+
+/*Estilo das questões*/
+.Separador{ border-left:1px #000 solid; border-top:1px #000 solid; border-right:1px #000 solid; width:100%; margin:0 !important}
+.QuestionTag{ background:#000; color:#fff; font-size:14px;; margin:0 0 0 -15px; display:block; width:70px !important; padding:1px; text-align:center}
+h2.TextQuestion{ font-size:17px; margin:15px 0;font-weight:400; color:#000}
+
+ol.options{list-style:upper-alpha; margin:0px}
+.MyOp{ font-size:13px;list-style:none; padding:0px; /*margin-left:-30px*/ font-weight:300}
+.Opts{ font-size:14px;font-family:Arial, Helvetica, sans-serif;}
+
+.Objetiva{ background:#000; color:#fff; font-size:30px; font-weight:bold; text-transform:uppercase; text-align:center; width:98%; margin:0 auto 2px !important}
+
+.Midle{ background:url(../img/fundo_divisa.jpg) repeat-y center;}
+
+/*
+<ol>
+	<li class="MyOp">
+		Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.
+	</li>
+	<li class="MyOp">Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga.</li>
+	<li class="MyOp">Sapien in monti palavris qui num significa nadis i pareci latim. </li>
+	<li class="MyOp">Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</li>
+	<li class="MyOp">Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. </li>
+</ol>
+*/
+
+.BlockQuestion{ border-right: 3px solid #000 !important}
+.BlockQuestion:last-child { border-right: none !important}
+
+/*PERSONALIZAÇÃO NO TEXTO BOOTSTRAP*/
+
+.GridOpt{ border:#CCC solid 1px; margin:0px}
+.Listagem{ width:100%; padding:8px; min-height:518px;}
+.ProvaSelecionada{ width:100%; padding:15px 8px; min-height:570px; margin-top:-20px; margin-bottom:-20px}
+.Instrucoes{ width:100%; padding:8px; min-height:518px;}
+
+.BoxProvaSelecionada{ background:#fafafa; border:#F4F4F4 1px solid; padding:15px; min-height:50px}
+
+h1.SelctProove{ display:block; width:100%; background:#000; color:#fff; text-align:center; margin:15px 0; font-size:30px; }
+h2.Subtitle { text-align:center !important; margin-bottom:10px; font-size:18px; font-weight:bold}
+h3.Lista{font-size:14px; margin:0px !important}
+h3 > a.TitleLink{text-decoration:underline; color:#06C; font-size:14px; margin:0px !important}
+h3 > a.TitleLink:hover{text-decoration:underline; color:#F8C300; font-size:14px; margin:0px !important}
+
+p.DataSimulado{ font-size:13px; color:#666}
+p.SubText{font-size:14px;color:#000; font-weight:bold; margin-bottom:25px; margin-top:35px}
+
+/*FIM PERSONALIZAÇÃO NO TEXTO BOOTSTRAP*/
+
+/*BOTÕES*/
+
+.btn-grey-back-left{background: #CFCFCF;border-radius:0px;width: 110px;height: 37px;position: relative;	margin-bottom: 1em; right:25px; font-weight:400; color:#000}
+.btn-grey-back-left:after{content: "";width: 0; height: 0;position: absolute;	right: -19px;	top:-4px;	border-top: 22px solid transparent;	border-bottom: 22px solid transparent;	border-left: 22px solid #CFCFCF;border-radius: 50%;}
+
+.btn-grey-back-right{background: #CFCFCF;border-radius:0px;width: 110px;height: 37px;position: relative;	margin-bottom: 1em; right:-25px; font-weight:400; color:#000}
+.btn-grey-back-right:after{content: "";width: 0; height: 0;position: absolute;	left: -19px;	top:-5px;	border-top: 23px solid transparent;	border-bottom: 22px solid transparent;	border-right: 22px solid #CFCFCF;border-radius: 50%;}
+
+/*FIM BOTÕES*/
+
+/*MODAL*/
+.modal-header-blue{ background:#00589F; color:#fff}
+.close-white{ color:#fff}
+.modal-noround{border-radius:2px;}
+.modal-body-grey{ background:#F4F4F4}
+/*FIM MODAL*/
+
+/*PERSONALIZAÇÃO DE FORMULARIO RADIO - CARTÃO RESPOSTA*/
+.answers-methods {list-style: none; margin: 0; padding: 0;}
+.answers-methods:after { content: ""; clear: both;}
+.answers-method { border: 1px solid #ccc; box-sizing: border-box; float: left; height: 20px; position: relative; width: 20px;}
+.answers-method label { background: #fff no-repeat center center; bottom: -5px; cursor: pointer; display: block; font-size: 0; left: 0px; position: absolute; right: 0px; text-indent: 100%;  top: 0px; white-space: nowrap;}
+.answers-method + .answers-method { margin-left: 3px;}
+
+.Question { border:none !important; box-sizing: border-box; float: left; height: 20px; position: relative; width: 20px;}
+.Question label { background:none !important; font-weight:bold; font-size:15px}
+
+.letraA label { background-image: url(../images/respostas/letraA.jpg);}
+.letraB label {background-image: url(../images/respostas/letraB.jpg);}
+.letraC label {background-image: url(../images/respostas/letraC.jpg);}
+.letraD label {background-image: url(../images/respostas/letraD.jpg);}
+.letraE label {background-image: url(../images/respostas/letraE.jpg);}
+
+.answers-methods input:focus + label { background:#000; /*outline: 4px solid #21b4d0;*/}
+.answers-methods input:checked + label { background:#000}
+
+.answers-methods input:checked + label:after { bottom: -10px; content: ""; display: inline-block; height: 20px; position: absolute; right: -10px; width: 20px; left:-15px}
+
+@-moz-document url-prefix() {
+	.answers-methods input:checked + label:after {bottom: 0; right: 0; background-color: #21b4d0;}
+}
+/* FIM DE PERSONALIZAÇÃO DE FORMULARIO RADIO - CARTÃO RESPOSTA*/
+
+/*MARCAÇÃO DAS PROVAS E SIMULADOS*/
+.marcacao{ }
+
+.A-desmarcado{background:url(../images/marc/a-desmarcado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.A-duvida{background:url(../images/marc/a-duvida.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.A-descartado{background:url(../images/marc/a-descartado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.A-certeza{background:url(../images/marc/a-certeza.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+
+.B-desmarcado{background:url(../images/marc/b-desmarcado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.B-duvida{background:url(../images/marc/b-duvida.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.B-descartado{background:url(../images/marc/b-descartado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.B-certeza{background:url(../images/marc/b-certeza.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+
+.C-desmarcado{background:url(../images/marc/c-desmarcado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.C-duvida{background:url(../images/marc/c-duvida.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.C-descartado{background:url(../images/marc/c-descartado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.C-certeza{background:url(../images/marc/c-certeza.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+
+.D-desmarcado{background:url(../images/marc/d-desmarcado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.D-duvida{background:url(../images/marc/d-duvida.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.D-descartado{background:url(../images/marc/d-descartado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.D-certeza{background:url(../images/marc/d-certeza.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+
+.E-desmarcado{background:url(../images/marc/e-desmarcado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.E-duvida{background:url(../images/marc/e-duvida.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.E-descartado{background:url(../images/marc/e-descartado.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+.E-certeza{background:url(../images/marc/e-certeza.png);position:relative; left:-35px; bottom:-25px;width:35px; min-height:25px;display:block; margin-top:-25px}
+
+/*MARCAÇÃO DAS PROVAS E SIMULADOS*/
+
+/*FUNDO DA MODAL DE FINAL DE PROVA*/
+.FimProva{display: none; z-index:1039; background:#000; width:100%; height:100%; top:0; position:absolute; border:none;filter:alpha(opacity=50); opacity: 0.5; -moz-opacity:0.5; -webkit-opacity:0.5;}
+
+
+
+#morris-chart-line { width: 100%; min-height: 250px; margin: 20px auto 0 auto;}

@@ -1,0 +1,1 @@
+{"code":"$(document).ready(function()\n\t{\n\t\t$(\"#SC_fast_search_t\").keypress(function(e){\n\t\t\tif(e.which == 13) {\n\t\t\t\te.preventDefault();\n\t\t\t\tsetTimeout(()=>{ $(\"#SC_fast_search_t\").blur(); }, 300);\n\t\t\t}\n\t\t\t\n\t\t\tif(this.value.length >= 30){\n\t\t\t\tval = this.value.substr(0,30);\n\t\t\t\tthis.value = val;\n\t\t\t}\n\t\t});\n\t});"}

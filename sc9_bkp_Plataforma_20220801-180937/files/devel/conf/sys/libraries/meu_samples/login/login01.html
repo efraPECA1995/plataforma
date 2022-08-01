@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--SC_JS_LIB-->
+        <!--SC_PAGE_CHARSET-->
+        <title>Sign In</title>
+        <link rel="stylesheet" href="{SC_LIB_SCRIPTCASE}samples/login/css/login.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="login1" class="page">
+            <div class="header">
+                <img src="{SC_LIB_SCRIPTCASE}samples/login/img/scritpcase.png" alt="">
+            </div>
+            <form class="form form-center" action="" {SC_FORM_ATTR}>
+                <!--SC_FORM_HIDDEN-->
+                <h2>
+                    Sign In
+                </h2>
+                <div class="control">
+                    <label class="form-label">User</label>
+                    <input class="input {SC_FIELD_CLASS}" type="text" placeholder="User" {SC_FIELD_INFO_login}>					
+                </div>
+                <div class="control">
+                    <label class="form-label">Password</label>
+                    <input class="input {SC_FIELD_CLASS}" type="password" placeholder="Password" {SC_FIELD_INFO_pswd}>					
+                </div>
+				<!--SC_CAPTCHA-->
+				<!--SC_REQUIRED_MSG-->
+                <div class="submit">
+                    <button class="button button-block" type="submit" {SC_FORM_SUBMIT_CALL}>Sign In</button>
+                </div>
+                {SC_FIELD_INFO_Links}
+            </form>
+        </div>
+    </body>
+</html>

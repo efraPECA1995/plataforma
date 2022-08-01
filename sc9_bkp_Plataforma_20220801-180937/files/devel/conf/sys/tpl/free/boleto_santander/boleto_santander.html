@@ -1,0 +1,674 @@
+<HTML>
+<HEAD>
+<TITLE>www.scriptcase.com.br</TITLE>
+<style type=text/css>
+.cp {  font: bold 10px Arial; color: black}
+.ti {  font: 9px Arial, Helvetica, sans-serif}
+.ld { font: bold 13px Arial; color: #000000}
+.ct { FONT: 9px "Arial Narrow"; COLOR: #000033}
+.cn { FONT: 9px Arial; COLOR: black }
+.bc { font: bold 22px Arial; color: #000000 }
+</style>
+</head>
+
+<BODY text=#000000 bgColor=#ffffff topMargin=0 rightMargin=0>
+<table width=666px cellspacing=0 cellpadding=0  style="background-color: #FFFFFF; border-collapse:collapse;">
+ <tr>
+  <td valign=top class=cp>
+   <DIV ALIGN="CENTER">Instrus&otilde;es de Impress&atilde;o</DIV>
+  </TD>
+ </TR>
+ <TR>
+  <TD valign=top class=ti>
+   <DIV ALIGN="CENTER">Imprimir em impressora jato de tinta (ink jet) ou laser em qualidade normal. (N&atilde;o use modo economico). <BR>Utilize folha A4 (210 x 297 mm) ou Carta (216 x 279 mm) - Corte na linha indicada<BR></DIV>
+  </td>
+ </tr>
+</table>
+<br>
+<table cellspacing=0 cellpadding=0 width=666px border=0>
+ <TBODY>
+  <TR>
+   <TD class=ct width=666px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/6.gif width=665px border=0></TD>
+  </TR>
+  <TR>
+   <TD class=ct width=666px>
+    <div align=right><b class=cp>Recibo do Pagador</b></div>
+   </TD>
+  </tr>
+ </tbody>
+</table>
+<table width=666px cellspacing=5 cellpadding=0 border=0>
+ <tr>
+  <td width=41px>
+  </TD>
+ </tr>
+</table>
+<table width=666px cellspacing=5 cellpadding=0 border=0 align=Default>
+ <tr>
+  <td width=41px valign="middle"><IMG SRC="http://www.netmake.com.br/boleto/unibanco/imagens/netmake.jpg"></td>
+  <td class=ti width=455px valign="middle">{var_str_nome_empresa}<br>{var_str_endereco_empresa}<br>{var_str_bairro_empresa}<br>{var_str_cidade_empresa}/{var_str_uf_empresa}<br>CEP: {var_str_cep_empresa}<br><br><br></td>
+  <td align=RIGHT width=150px class=ti>
+   <div align=right><br></div>
+  </td>
+ </tr>
+</table>
+<BR>
+<table cellspacing=0 cellpadding=0 width=666px border=0>
+ <tr>
+  <td class=cp width=120px><img src="http://www.netmake.com.br/boleto/unibanco/imagens/logo-santander.png" border=0></td>
+   <td width=3px valign=bottom><img height=22px src=http://www.netmake.com.br/boleto/unibanco/imagens/3.gif width=2px border=0></td>
+   <td class=cpt width=70px valign=bottom>
+    <div align=center><font class=bc>033-7</font></div>
+   </td>
+   <td width=3px valign=bottom><img height=22px src=http://www.netmake.com.br/boleto/unibanco/imagens/3.gif width=2px border=0></td>
+   <td class=ld align=right width=470px valign=bottom>
+    <span class=ld>{var_str_linha_digitavel}</span>
+   </td>
+ </tr>
+ <tbody>
+  <tr>
+   <td colspan=5><img height=2px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=666px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=273px height=13px>Benefici&aacute;rio</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=147px height=13px>Agencia/C&oacute;digo Benefici&aacute;rio</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=38px height=13px>Esp&eacute;cie</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=53px height=13px>Quant.</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=120px height=13px>Nosso n&uacute;mero</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=273px height=12px>{var_str_nome_empresa}</td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=147px height=12px>{var_str_ag}/{var_str_cc}</td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top  width=38px height=12px>{v_str_moeda}</td>
+    <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+    <td class=cp valign=top  width=53px height=12px></td>
+    <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+    <td class=cp valign=top align=right width=120px height=12px>{var_str_nosso_numero}</td>
+    <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   </tr>
+   <tr>
+    <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+    <td valign=top width=273px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=273px border=0></td>
+    <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+    <td valign=top width=147px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=147px border=0></td>
+    <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+    <td valign=top width=38px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=38px border=0></td>
+    <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+    <td valign=top width=53px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=53px border=0></td>
+    <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+    <td valign=top width=120px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=120px border=0></td>
+   </tr>
+  </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top colspan=3 height=13px>N&uacute;mero do documento</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=132px height=13px>CPF/CNPJ</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=134px height=13px>Vencimento</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=180px height=13px>Valor documento</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top colspan=3 height=12px>{var_str_nr_doc}</td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=132px height=12px>{var_str_cpf_cnpj_empresa}</td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=134px height=12px>{var_str_data_venc}</td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top align=right width=180px height=12px>{var_str_valor}</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=113px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=113px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=72px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=72px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=132px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=132px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=134px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=134px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct valign=top width=7px height=12px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=113px height=12px>(-)Desconto / Abatimentos</td>
+   <td class=ct valign=top width=7px height=12px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=112px height=12px>(-)Outras dedu&ccedil;&otilde;es</td>
+   <td class=ct valign=top width=7px height=12px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=113px height=12px>( )Mora / Multa</td>
+   <td class=ct valign=top width=7px height=12px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=113px height=12px>( )Outros acr&eacute;ssimos</td>
+   <td class=ct valign=top width=7px height=12px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=180px height=12px>(=)Valor cobrado</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top align=right width=113px height=12px></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top align=right width=112px height=12px></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top align=right width=113px height=12px></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top align=right width=113px height=12px></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top align=right width=180px height=12px></td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=113px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=113px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=112px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=112px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=113px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=113px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=113px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=113px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=659px height=13px>Pagador</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=659px height=12px>{var_str_sacado}</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=659px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=659px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct  width=7px height=12px></td>
+   <td class=ct  width=564px ></td>
+   <td class=ct  width=7px height=12px></td>
+   <td class=ct  width=88px >Autentica&ccedil;&atilde;o mecanica</td>
+  </tr>
+  <tr>
+   <td  width=7px ></td>
+   <td  width=564px ></td>
+   <td  width=7px ></td>
+   <td  width=88px ></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 width=666px border=0>
+ <tbody>
+  <tr>
+   <td width=7px></td>
+   <td  width=500px class=cp><br><br><br><br></td>
+   <td width=159px></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 width=666px border=0>
+ <tr>
+  <td class=ct width=666px></td>
+ </tr>
+ <tbody>
+  <tr>
+   <td class=ct width=666px>
+    <div align=right>Corte na linha pontilhada</div>
+   </td>
+  </tr>
+  <tr>
+   <td class=ct width=666px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/6.gif width=665px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<br><br>
+<table cellspacing=0 cellpadding=0 width=666px border=0>
+ <tr>
+  <td class=cp width=120px><img src="http://www.netmake.com.br/boleto/unibanco/imagens/logo-santander.png"></td>
+  <td width=3px valign=bottom><img height=22px src=http://www.netmake.com.br/boleto/unibanco/imagens/3.gif width=2px border=0></td>
+  <td class=cpt width=70px valign=bottom>
+   <div align=center><font class=bc>033-7</font></div>
+  </td>
+  <td width=3px valign=bottom><img height=22px src=http://www.netmake.com.br/boleto/unibanco/imagens/3.gif width=2px border=0></td>
+  <td class=ld align=right width=470px valign=bottom><span class=ld>{var_str_linha_digitavel}</span></td>
+ </tr>
+ <tbody>
+  <tr>
+   <td colspan=5><img height=2px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=666px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=472px height=13px>Local de pagamento</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=180px height=13px>Vencimento</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=24 src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=472px height=12px>At&eacute; vencimento, preferencialmente no Santander. Ap&oacute;s vencimento, apenas no Santander</td>
+   <td class=cp valign=top width=7px height=12px><img height=24 src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ld valign=bottom align=right width=180px height=12px>{var_str_data_venc}</td>
+   <td class=ct valign=top width=7px height=24px><img height=24px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=472px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=472px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=472px height=13px>Benefici&aacute;rio</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=180px height=13px>Agencia/C&oacute;digo Benefici&aacute;rio</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=472px height=12px>{var_str_nome_empresa}</td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top align=right width=180px height=12px>{var_str_ag}/{var_str_cc}</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=472px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=472px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=113px height=13px>Data do documento</td>
+   <td class=ct valign=top width=7px height=13px> <img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=163px height=13px>N&uacute;mero</u> documento</td>
+   <td class=ct valign=top width=7px height=13px> <img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=62px height=13px>Esp&eacute;cie doc.</td>
+   <td class=ct valign=top width=7px height=13px> <img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=34px height=13px>Aceite</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=72px height=13px>DT. Process.</td>
+   <td class=ct valign=top width=7px height=13px> <img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=180px height=13px>Nosso n&uacute;mero</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top  width=113px height=12px><div align=left>{var_str_data_atual}</div></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=163px height=12px>{var_str_documento}</td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top  width=62px height=12px><div align=left></div></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top  width=34px height=12px><div align=left></div></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top  width=72px height=12px><div align=left>{var_str_data_atual}</div></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top align=right width=180px height=12px>{var_str_nosso_numero}</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=113px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=113px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=163px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=163px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=62px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=62px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=34px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=34px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=72px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=72px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct valign=top width=7px height=13px> <img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top COLSPAN="3" height=13px>C&oacute;d.Transa&ccedil;&atilde;o CVT</td>
+   <td class=ct valign=top height=13px width=7px> <img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=83px height=13px>Carteira</td>
+   <td class=ct valign=top height=13px width=7px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=53px height=13px>Esp&eacute;cie</td>
+   <td class=ct valign=top height=13px width=7px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=123px height=13px>Quantidade</td>
+   <td class=ct valign=top height=13px width=7px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=72px height=13px>Vl.Docum.</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=180px height=13px>(=)Valor documento</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td valign=top class=cp height=12px COLSPAN="3"><div align=left>{var_str_cvt}</div></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top  width=83px><div align=left>{var_str_carteira}</div></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top  width=53px><div align=left>{v_str_moeda}</div></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top  width=123px></td>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top  width=72px>{var_str_valor}</td>
+   <td class=cp valign=top width=7px height=12px> <img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top align=right width=180px height=12px>{var_str_valor}</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td valign=top width=7px height=1px> <img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=75px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=31px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=31px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=83px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=83px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=53px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=53px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=123px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=123px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=72px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=72px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 width=666px border=0>
+ <tbody>
+  <tr>
+   <td align=right width=10px>
+    <table cellspacing=0 cellpadding=0 border=0 align=left>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=1px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+   <td valign=top width=468px rowspan=5><font class=ct>Instru&otilde;es (Texto de responsabilidade do Benefici&aacute;rio)</font><br><span class=cp>{var_str_msg1}<br>{var_str_msg2}<br>{var_str_msg3}<br>{var_str_msg4}<br><br><br></span></td>
+   <td align=right width=188px>
+    <table cellspacing=0 cellpadding=0 border=0>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=ct valign=top width=180px height=13px>(-)Desconto / Abatimentos</td>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=cp valign=top align=right width=180px height=12px></td>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+       <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+  </tr>
+  <tr>
+   <td align=right width=10px>
+    <table cellspacing=0 cellpadding=0 border=0 align=left>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=1px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+   <td align=right width=188px>
+    <table cellspacing=0 cellpadding=0 border=0>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=ct valign=top width=180px height=13px>(-)Outras dedu&ccedil;&otilde;es</td>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px> <img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=cp valign=top align=right width=180px height=12px></td>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+       <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+  </tr>
+  <tr>
+   <td align=right width=10px>
+    <table cellspacing=0 cellpadding=0 border=0 align=left>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=1px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+   <td align=right width=188px>
+    <table cellspacing=0 cellpadding=0 border=0>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=ct valign=top width=180px height=13px>( )Mora / Multa</td>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=cp valign=top align=right width=180px height=12px></td>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td valign=top width=7px height=1px> <img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0>
+       </td>
+       <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+  </tr>
+  <tr>
+   <td align=right width=10px>
+    <table cellspacing=0 cellpadding=0 border=0 align=left>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=1px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+   <td align=right width=188px>
+    <table cellspacing=0 cellpadding=0 border=0>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=ct valign=top width=180px height=13px>( )Outros acr&eacute;ssimos</td>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=cp valign=top align=right width=180px height=12px></td>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+       <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+  </tr>
+  <tr>
+   <td align=right width=10px>
+    <table cellspacing=0 cellpadding=0 border=0 align=left>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+   <td align=right width=188px>
+    <table cellspacing=0 cellpadding=0 border=0>
+     <tbody>
+      <tr>
+       <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=ct valign=top width=180px height=13px>(=)Valor cobrado</td>
+       <td class=ct valign=top width=7px height=13px align='right'><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+      <tr>
+       <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+       <td class=cp valign=top align=right width=180px height=12px></td>
+       <td class=ct valign=top width=7px height=13px align='right'><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+      </tr>
+     </tbody>
+    </table>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 width=666px border=0>
+ <tbody>
+  <tr>
+   <td valign=top width=666px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=666px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=ct valign=top width=659px height=13px>Pagador</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=659px height=12px>{var_str_sacado} / {var_str_cpf_cnpj}</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td class=cp valign=top width=7px height=12px><img height=12px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+   <td class=cp valign=top width=659px height=12px>{var_str_endereco},{var_str_bairro} - {var_str_cidade}/{var_str_uf}</td>
+   <td class=ct valign=top width=7px height=13px><img height=13px src=http://www.netmake.com.br/boleto/unibanco/imagens/1.gif width=1px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<table cellspacing=0 cellpadding=0 border=0>
+ <tbody>
+  <tr>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=472px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=472px border=0></td>
+   <td valign=top width=7px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=7px border=0></td>
+   <td valign=top width=180px height=1px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/2.gif width=180px border=0></td>
+  </tr>
+ </tbody>
+</table>
+<TABLE cellSpacing=0 cellPadding=0 border=0 width=666px>
+ <TBODY>
+  <TR>
+   <TD class=ct  width=7px height=12px></TD>
+   <TD class=ct  width=409px ></TD>
+   <TD class=ct  width=250px ><div align=right>Autentica&ccedil;&atilde;o mecanica - <b class=cp>Ficha de Compensa&ccedil;&atilde;o</b></div></TD>
+  </TR>
+  <TR>
+   <TD class=ct  colspan=3 ></TD>
+  </tr>
+ </tbody>
+</table>
+<TABLE cellSpacing=0 cellPadding=0 width=666px border=0>
+ <TBODY>
+  <TR>
+   <TD vAlign=bottom align=left height=50px>&nbsp;&nbsp;&nbsp;{var_str_codigo_barra}</TD>
+  </tr>
+ </tbody>
+</table>
+<TABLE cellSpacing=0 cellPadding=0 width=666px border=0>
+ <TR>
+  <TD class=ct width=666px></TD>
+ </TR>
+  <TBODY>
+   <TR>
+    <TD class=ct width=666px><div align=right>Cortena linha pontilhada</div></TD>
+   </TR>
+   <TR>
+   <TD class=ct width=666px><img height=1px src=http://www.netmake.com.br/boleto/unibanco/imagens/6.gif width=665px border=0></TD>
+  </tr>
+ </tbody>
+</table>
+</BODY>
+</HTML>

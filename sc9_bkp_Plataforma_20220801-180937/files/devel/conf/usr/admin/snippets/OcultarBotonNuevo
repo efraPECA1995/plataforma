@@ -1,0 +1,1 @@
+{"code":"if({NOMBRE} != \"\"){\t\n\t\/*\n * Ocultar bot\u00f3n si encuentra registros de emblemas\n *\/\n\tsc_btn_display(\"Nuevo\",\"off\");\n\n}else{\n\tsc_btn_display(\"Nuevo\",\"on\");\n\techo \"<style>.scButton_default {display: inline-block;}<\/style>\";\n}"}
